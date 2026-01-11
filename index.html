@@ -45,6 +45,24 @@
       border-top: 1px solid #ddd;
       padding-top: 2rem;
     }
+    /* Optional: button style for links */
+    a.button {
+      display: inline-block;
+      padding: 0.5rem 1rem;
+      background-color: #1a73e8;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+      transition: background 0.3s, transform 0.2s;
+    }
+    a.button:hover {
+      background-color: #ff4081;
+      transform: scale(1.05);
+    }
+    html {
+      scroll-behavior: smooth;
+    }
   </style>
 </head>
 <body>
@@ -55,7 +73,7 @@
     <a href="#home">Home</a>
     <a href="#poetry">Poetry</a>
     <a href="#music">Music</a>
-    <a href="#tutoring">Tutoring</a>
+    <a href="tutoring.html">Tutoring</a>
     <a href="#contact">Contact</a>
   </nav>
 </header>
@@ -66,27 +84,29 @@
 
 <section id="poetry">
   <h2>Poems</h2>
-  <p>Published poetry includes:<p>
 
-<p>‘Cleopatra’, a work commissioned for an anthology of poems on ‘Shakespeare’s Women’ (forthcoming with Broken Sleep Books, 2026).<p>
-<p>‘She was so unlike him. She was so much like us’, commissioned for <em>Anne-thology: Poems Re-Presenting Anne Shakespeare</em>, (Broken Sleep Books, 2023).<p>
-<p><em>Hey Ho The White Swan By God I Am Thy Man</em> (a pamphlet of poems, Broken Sleep Books, 2022).<p>
-<p>‘The Lost Decade’ and ‘The Ship of Theseus’ in <em>Poetry Birmingham Literary Journal</em> (Autumn/ Winter, 2020).<p>
+  <p>Published poetry includes:</p>
+
+  <p>‘Cleopatra’, a work commissioned for an anthology of poems on ‘Shakespeare’s Women’ (forthcoming with Broken Sleep Books, 2026).</p>
+  <p>‘She was so unlike him. She was so much like us’, commissioned for <em>Anne-thology: Poems Re-Presenting Anne Shakespeare</em> (Broken Sleep Books, 2023).</p>
+  <p><em>Hey Ho The White Swan By God I Am Thy Man</em> (a pamphlet of poems, Broken Sleep Books, 2022).</p>
+  <p>‘The Lost Decade’ and ‘The Ship of Theseus’ in <em>Poetry Birmingham Literary Journal</em> (Autumn/Winter, 2020).</p>
+
   <p>'Damnatio Memoriae’, poem of the week on the <em>London Review of Books Bookshop Blog</em> (August 2020).<br>
-  <a href="https://www.londonreviewbookshop.co.uk/blog/2020/july/poem-of-the-week-damnatio-memoriae-by-sam-quill" target="_blank" rel="noopener noreferrer">
-    READ HERE
-  </a>.</p>
-<p>‘Coiner’ in <em>BLACKBOX MANIFOLD</em> (No. 24 (SUMMER 2020)).<br>
-  <a href="https://blackboxmanifold.sites.sheffield.ac.uk/issues/issues-21-28/issue-24/sam-quill" target="_blank" rel="noopener noreferrer">
-    READ HERE
-  </a>.</p>
-<p>Various poems in <em>The Next Review</em>, (Aug-Sep 2016).<p>
-<p>‘14 Sonnets’ in <em>PN Review</em> (May-June, 2016).
-</p>
+  <a class="button" href="https://www.londonreviewbookshop.co.uk/blog/2020/july/poem-of-the-week-damnatio-memoriae-by-sam-quill" target="_blank" rel="noopener noreferrer">READ HERE</a>
+  </p>
+
+  <p>‘Coiner’ in <em>BLACKBOX MANIFOLD</em> (No. 24 (SUMMER 2020)).<br>
+  <a class="button" href="https://blackboxmanifold.sites.sheffield.ac.uk/issues/issues-21-28/issue-24/sam-quill" target="_blank" rel="noopener noreferrer">READ HERE</a>
+  </p>
+
+  <p>Various poems in <em>The Next Review</em>, (Aug-Sep 2016).</p>
+  <p>‘14 Sonnets’ in <em>PN Review</em> (May-June, 2016).</p>
 </section>
 
 <section id="music">
   <h2>Music</h2>
+  <p>Listen to my music on Spotify below!</p>
   <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden;">
     <iframe src="https://open.spotify.com/embed/artist/0HXValHweFsBQ6MLeYi4Ew"
             style="position:absolute; top:0; left:0; width:100%; height:100%; border-radius:12px;"
@@ -96,14 +116,9 @@
   </div>
 </section>
 
-<section id="tutoring">
-  <h2>Tutoring</h2>
-  <p>I offer tutoring in literature, writing, and related subjects. Please get in touch to discuss needs, availability, and rates.</p>
-</section>
-
 <section id="contact">
   <h2>Contact</h2>
-  <p>Email: <a href="mailto:yourname@example.com">samquill00@gmail.com</a></p>
+  <p>Email: <a href="mailto:samquill00@gmail.com">samquill00@gmail.com</a></p>
 </section>
 
 <footer>
