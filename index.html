@@ -23,12 +23,24 @@
     footer { font-size: 0.85rem; color: #666; border-top: 1px solid #ddd; padding-top: 2rem; }
     html { scroll-behavior: smooth; }
 
-    .photo-credit {
-  font-size: 0.85rem;
-  color: #777;
-  font-style: italic;
-  margin-top: -1rem;
-  margin-bottom: 2rem;
+    /* Image styling */
+img.profile {
+  max-width: 100%;           /* image scales to fit the page */
+  height: auto;              /* keeps proportions correct */
+  display: block;            /* ensures spacing below works properly */
+  margin: 0 auto 0.5rem auto; /* top 0, bottom 0.5rem, centered horizontally */
+  border-radius: 6px;        /* optional rounded corners */
+}
+
+/* Photo credit styling */
+.photo-credit {
+  font-size: 0.85rem;        /* small, subtle text */
+  color: #777;               /* grey color */
+  font-style: italic;        /* italic style */
+  text-align: center;        /* centers the caption under the image */
+  margin: 0 0 2rem 0;        /* top 0, bottom 2rem, no side margins */
+}
+
 }
 
   </style>
